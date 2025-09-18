@@ -14,7 +14,7 @@ public class Month{
 	}
 	@Override
 	public boolean equals(Object same) {
-		if (this == same) return true;
+		if (name == same) return true;
 		if (same == null || getClass() != same.getClass()) return false;
 		Month myObject = (Month) same;
 		return Objects.equals(name, myObject.name);

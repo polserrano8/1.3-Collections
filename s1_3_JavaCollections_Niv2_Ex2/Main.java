@@ -1,8 +1,11 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-import Model.Restaurant;
-import Model.RestaurantNameComparator;
-import Model.RestaurantScoreComparator;
+package s1_3_JavaCollections_Niv2_Ex2;
+
+
+import s1_3_JavaCollections_Niv2_Ex2.model.Restaurant;
+import s1_3_JavaCollections_Niv2_Ex2.model.RestaurantNameComparator;
+import s1_3_JavaCollections_Niv2_Ex2.model.RestaurantScoreComparator;
+
+
 
 import java.util.Iterator;
 import java.util.TreeSet;

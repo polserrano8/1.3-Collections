@@ -1,4 +1,4 @@
-package org.example.Model;
+package Model;
 
 public class GameStructure {
     private CountriesGame game = new CountriesGame();

@@ -1,13 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-import Model.Restaurant;
+package s1_3_JavaCollections_Niv2_Ex1;
+
+import s1_3_JavaCollections_Niv2_Ex1.Model.Restaurant;
 
 import java.util.HashSet;
 import java.util.Iterator;
 
 class Main{
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+
         Restaurant berasategui = new Restaurant("Berasategui", 3);
         Restaurant emocionar = new Restaurant("Emocionar", 0);
         HashSet<Restaurant> listOfRestaurants = new HashSet<Restaurant>();
@@ -30,7 +30,7 @@ class Main{
     public static void showValues(HashSet<Restaurant> list){
         System.out.println("Showing the HashSet values up to now.");
         Iterator<Restaurant> iterator = list.iterator();
-        int x=0;
+        int x;
         for(x=0;x<list.size();x++){
             Restaurant variable = iterator.next();
             System.out.println("Name: " + variable.getName() + ", Score:" + variable.getScore());

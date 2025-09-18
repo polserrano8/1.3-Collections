@@ -1,4 +1,4 @@
-package Model;
+package s1_3_JavaCollections_Niv2_Ex1.Model;
 
 import java.util.Objects;
 
@@ -10,10 +10,6 @@ public class Restaurant {
         this.name = name;
         this.score = score;
     }
-
-
-
-
 
     @Override
     public boolean equals(Object same) {

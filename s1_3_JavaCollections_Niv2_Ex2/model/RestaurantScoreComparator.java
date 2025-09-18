@@ -1,4 +1,4 @@
-package Model;
+package s1_3_JavaCollections_Niv2_Ex2.model;
 
 import java.util.Comparator;
 

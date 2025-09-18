@@ -1,4 +1,4 @@
-package org.example.Model;
+package Model;
 
 import java.util.*;
 import java.io.*;
@@ -53,7 +53,7 @@ public class CountriesGame {
         for(y=0;y<10;y++){
             System.out.println("Guess the capital of this country: " + countriesNumeration.get(listRandomNumbers.get(y)));
             String response = sc.next();
-            if(response.equals(countries_Capitals.get(countriesNumeration.get(listRandomNumbers.get(y))))){
+            if(response.equalsIgnoreCase(countries_Capitals.get(countriesNumeration.get(listRandomNumbers.get(y))))){
                 this.score +=1;
             }
         }
